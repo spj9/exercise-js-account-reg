@@ -6,8 +6,8 @@ body {
 
 h1 {
     color: black;
-
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -49,6 +49,7 @@ input[type="password"].invalid {
 button {
     width: 75%;
     height: 40px;
+    margin-top: 20px;
 }
 
 button[type="submit"] {
