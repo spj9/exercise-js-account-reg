@@ -31,7 +31,7 @@ label span {
     text-transform: uppercase;
     font-family: Monaco, monospace;
     font-weight: lighter;
-    font-size: 1.2em; /* or a specific pixel value, e.g. 12px */
+    font-size: 1.2em; 
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
@@ -44,6 +44,11 @@ input[type="text"], input[type="email"], input[type="password"] {
 input[type="password"].invalid {
     border-color: red;
     background-color: #ffe6e6;
+}
+
+button {
+    width: 75%;
+    height: 40px;
 }
 
 button[type="submit"] {
